@@ -1,0 +1,20 @@
+#ifndef __WIFI_INTERFACE_H__
+#define __WIFI_INTERFACE_H__
+
+#define WIFI_DEBUG 0x01
+#define WIFI_TEST 0x02
+
+#define WIFI_RESIZE_REQ 0x08
+#define WIFI_RESIZE_ACK 0x09
+
+#define WIFI_ARDUCAM_REQ 0x03
+#define WIFI_ARDUCAM_DATA 0x04
+#define WIFI_ARDUCAM_END 0x05
+
+#define WIFI_INDUCTION_REQ 0x06
+#define WIFI_INDUCTION_DATA 0x07
+
+#define WIFI_RESET_REQ 0x0A
+#define WIFI_RESET_ACK 0x0B
+
+#endif
